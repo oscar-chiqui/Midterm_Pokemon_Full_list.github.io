@@ -1,10 +1,8 @@
-# Midterm_Pokemon_Full_list.github.io
-
- # THIS IS THE PART ONE = The 150 Original Pokemon Program
+# Midterm_Pokemon_Full_list.github.io -  THIS IS THE PART ONE = The 150 Original Pokemon Program
 
 Part 1: LIVE VERSION  : https://oscar-chiqui.github.io/Midterm_Pokemon_Full_list.github.io/
 
-# THIS IS THE PART TWO  - The Random Pokemon Search Program
+THIS IS THE PART TWO  - The Random Pokemon Search Program
 
 Part 2: live Version :  https://oscar-chiqui.github.io/Midterm_Pokemon_API_Search.github.io/
 
