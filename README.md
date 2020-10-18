@@ -5,6 +5,7 @@ Part 1: LIVE VERSION  : https://oscar-chiqui.github.io/Midterm_Pokemon_Full_list
 THIS IS THE PART TWO  - The Random Pokemon Search Program
 
 Part 2: live Version :  https://oscar-chiqui.github.io/Midterm_Pokemon_API_Search.github.io/
+Part 2: Git Repo link : https://github.com/oscar-chiqui/Midterm_Pokemon_API_Search.github.io
 
 # Documentation = Midterm_Project - FALL 2020 ( Oscar A. Chiqui ) 
 
