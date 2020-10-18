@@ -1,0 +1,73 @@
+/*Program CSS - index.html - Oscar Chiqui - Fall 2020 | Midterm Project  */
+
+/* For the background of the page I use a gradient style that allows to obtain beautiful colors  ( https://cssgradient.io/  */
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 26%, rgba(148,187,233,1) 100%);
+}
+/*the style of what goes inside is modified, which is used padding and margin to modify it  */
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+/* The text line h1 changes its size and position in 54px  */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+/* The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns.   */
+#list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+/* The list-style CSS shorthand property allows you set all the list style properties at once.   */
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: #FFFFFF;
+    color: #222;
+  text-align: center;
+}
+/*An animation occurs when you hover the mouse over the pokemon card  */
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+/* The text-transform property in CSS controls text case and capitalization. */
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+}
+/* The margin-top property sets the top margin of an element. goes inside the card  */
+.card-subtitle {
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+}
+/*We modify the size of the card to be shown in the program. The height  does not include padding, borders, or margins!   */
+.card-image {
+    height: 180px;
+}
+/* The keyframes controls the intermediate steps in a CSS animation sequence by defining styles for keyframes along the animation sequence 
+The translateY  function repositions an element vertically on the 2D plane.
+The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements. */
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

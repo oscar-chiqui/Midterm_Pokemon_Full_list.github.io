@@ -1,0 +1,51 @@
+<!-- index.html | Pokemon " The 150 Original Pokemon | Oscar Chiqui | Midterm Project - Fall 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+<!-- Responsive Web Design - The Viewport - 
+The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen. ( https://www.w3schools.com/css/css_rwd_viewport.asp  -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- the title of the web page showing a spoiler of the web page.
+The name of the CSS to run and style the web page. 
+The use of Google fonts and how it is implemented on the website ( https://developers.google.com/fonts/docs/getting_started )( https://developers.google.com/fonts)
+-->
+        <title>The 150 Original Pokemon</title>
+        <link rel="stylesheet" href="pokemon.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+<!-- The title in h1 to show the subject and because there are 150 pokemon, I also write a bit of the history of pokemon -->
+        <div class="container">
+            <h1>The 150 Original Pokemon</h1>
+            <h3>Pokémon, electronic game series from Nintendo that debuted in Japan in February 1996 as Pokémon Green and Pokémon Red. The franchise later became wildly popular in the United States and around the world. The series, originally produced for the company’s Game Boy line of handheld consoles, was introduced in 1998 to the United States with two titles, known to fans as Red and Blue. In the games, players assume the role of Pokémon trainers, obtaining cartoon monsters and developing them to battle other Pokémon. 
+                Pokémon became one of the most successful video game franchises in the world, second only to Nintendo’s Super Mario Bros.
+
+<!-- I leave the link of the information to write about pokemon in h3 -->
+
+            <p><a href="https://www.britannica.com/topic/Pokemon-electronic-game">Visit Encyclopædia Britannica !</a></p></h3>
+            <p><b>Do you remember this song from your childhood?</b></p>
+
+<!--The link of a Youtube video with the main theme of the pokemon series that I saw as a child ( Source : https://www.w3schools.com/html/html_youtube.asp  ) -->
+                 <iframe width="420" height="345" src="https://www.youtube.com/embed/rg6CiPI6h2g"></iframe> 
+                 
+               
+<!-- I put my name and information about my college, in the footer of the page  ( Source: https://www.w3schools.com/tags/tag_footer.asp ) -->
+                 <footer>
+                    <p>Author: Oscar A. Chiqui<br>
+                    <a href="https://minneapolis.edu/">Student Project for MCTC </a></p>
+                  </footer>
+                  
+<!-- finally: set the id: " list "that will be used in javascript and CSS to modify the web page.
+the javascript name "pokemon.js" -->
+            <ul id="list"></ul>
+        </div>
+        <script src="pokemon.js"></script>
+    </body>
+</html>
